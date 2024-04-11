@@ -1,0 +1,35 @@
+# Topic 1
+cd Documents/code
+mkdir asha0012_Final_Project
+cd asha0012_Final_Project
+touch T1Q1.txt
+
+## To open this:
+nano T1Q1.txt
+
+## Exit nano
+Ctrl O
+Enter
+Ctrl X
+
+## To display this on terminal
+cat T1Q1.txt
+
+# Topic 2
+
+## STEP 1: Go to the root Directory
+~
+
+## STEP 2: Go into the .zshrc file to edit
+nano .zshrc
+
+## STEP 3: Type in your alias
+alias FinalProject = "cd ~/Documents/code/asha0012_Final_Project/"
+
+## STEP 4: Exit out of the nano text editor
+Ctrl O
+Enter
+Ctrl X
+
+## STEP 5: Refresh your .zshrc file
+source ~/.zshrc
